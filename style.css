@@ -1,0 +1,212 @@
+/* tout */
+
+* {
+    margin: auto;
+}
+
+body {
+    width: 80%;
+}
+
+/* nav */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lien {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    gap: 3em;
+}
+
+li:hover {
+    color: rgb(47, 34, 230);
+}
+
+/* main */
+
+main {
+    padding-top: 3em;
+    display: flex;
+}
+
+h1 {
+    font-family: "Abril Fatface", serif;
+    color: rgb(221, 106, 125);
+    font-size: 3em;
+}
+
+h2 {
+    color: rgb(73, 73, 73);
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.tex p {
+    font-size: 25px;
+    text-align: left;
+    color: rgb(73, 73, 73);
+}
+
+.tex p, h1, h2 {
+    margin: 0;
+}
+
+.tex {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ilu {
+    width: 30em;
+}
+
+
+/* aside */
+
+.bt {
+    width: 100%;
+    margin-left: 105px;
+}
+
+
+.boutton1:hover {
+    background: linear-gradient(rgb(73, 176, 245), rgb(97, 192, 255));
+    cursor: pointer;
+}
+
+.boutton2:hover {
+    background: linear-gradient(rgb(54, 134, 187), rgb(1, 56, 92));
+    cursor: pointer;
+}
+
+.boutton3:hover {
+    background: linear-gradient(rgb(37, 37, 37), rgb(58, 64, 70));
+    cursor: pointer;
+}
+
+.boutton1 {
+    width: 170px;
+    height: 50px;
+    background: linear-gradient(rgb(65, 156, 218), rgb(69, 173, 241));
+    color: white;
+    border: none;
+    margin-top: -10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+}
+
+.boutton2 {
+    width: 170px;
+    height: 50px;
+    background: linear-gradient(rgb(65, 156, 218), rgb(2, 85, 139));
+    color: white;
+    border: none;
+    margin-top: -10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    margin-left: 50px;
+}
+
+.boutton3 {
+    width: 170px;
+    height: 50px;
+    background: linear-gradient(rgb(0, 0, 0), rgb(34, 39, 43));
+    color: white;
+    border: none;
+    margin-top: -10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+aside button {
+    margin: 0;
+}
+
+aside img:hover {
+    cursor: pointer;
+}
+
+.twitter {
+    margin-left: -580px;
+    margin-bottom: -5px;
+    width: 1em;
+}
+
+.linkedin {
+    margin-left: 200px;
+    margin-bottom: -3px;
+    width: 1em;
+}
+
+.medium {
+    margin-left: 208px;
+    margin-bottom: -4px;
+    width: 1em;
+}
+
+/* section */
+
+.grid {
+    display: grid;
+    grid-template: 48em 48em 48em / 50% 50%;
+}
+
+footer img {
+    width: 95%;
+}
+
+footer {
+    padding-top: 5em;
+}
+
+.img1 p, h3, a {
+    width: 80%;
+    margin: 0;
+}
+
+.img1 h3 {
+    margin-top: 20px;
+    font-size: 2em;
+    color: rgb(212, 77, 100);
+}
+
+.img1 p {
+    font-size: 20px;
+    color: rgb(73, 73, 73);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: rgb(53, 53, 53);
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0;
+}
+
+.img1 a {
+    text-decoration: none;
+    color: rgb(212, 77, 100);
+    font-size: 25px;
+}
+
+.b {
+    width: 100px; height: 30px;
+}
